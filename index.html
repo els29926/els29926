@@ -5,7 +5,8 @@
         <title>index.html</title>
         <style type="text/css">
             body {
-                background-color:#212121;
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/dc/Larkspur_sunrise.JPG);
+                background-attachment: fixed;
                 color:#FAFAFA;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 margin: 0%;
@@ -13,31 +14,37 @@
                 padding: 0%;
             }
             div.content {
-                margin-left: 15%;
-                margin-right: 15%;
+                padding-left: 15%;
+                padding-right: 15%;
+                background-color: #212121;
+                top: 0%;
+                padding-top: 0.5%;
+                padding-bottom: 2%;
             }
             h1 {
-                color: #212121;
+                color: #FAFAFA;
+                text-shadow: 0px 0px 8px rgb(0, 0, 0, 1);
                 font-size: 30pt;
                 text-align: center;
                 text-decoration-line: underline;
-                text-decoration-style: dashed;
+                text-decoration-style: solid;
                 padding-top: 1%;
                 padding-bottom: 0%;
             }
             h2 {
-                color:slategrey;
+                color: #FAFAFA;
                 font-size: 14pt;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                 font-weight: 50;
                 text-align: center;
-                margin-top: -2%;
+                text-shadow: 0px 0px 8px rgb(0, 0, 0, 1);
+                margin-top: -1.5%;
                 margin-bottom: 0%;
             }
             div.header {
-                background-color:lightgreen;
                 margin-top: -1.5%;
-                padding-bottom: 1%;
+                padding-bottom: 21%;
+                padding-top: 20%;
             }
         </style>
     </head>
@@ -45,30 +52,52 @@
     <body>
         <div class=header>
         <h1>Eric Samuels</h1>
-        <h2><i>You could call it resume</i></h2>
+        <h2><i>"You could call it a resume"</i></h2>
         </div>
     <div class=content>
-        <h5>Maintaining a toaster computer: the HP ProBook 4520s</h5>
-        <p>This is my beloved toaster. A machine I found in the garbage a few years back. 
-            It was mediocre machine when it was first launched. And it was almost unusuable when I found it.</p>
-        <p>Specifications:</p>
+        <h3>About Me:</h3>
+        <blockquote><p>I am a sophomore student studying at the University Of Georgia, currently seeking a Bachelors of Science in Psychology. I enjoy swimming, programming and tinkering with computers in my free time. If there is one thing in the world I wish existed it would be new battery technology. Li-Po needs to go.</p></blockquote>
+        <h3>Education</h3>
+            <div style=text-indent:40px;>
+                <dl>
+                    <dt>High School Diploma - Cherokee High School</dt>
+                    <dd>May 2017</dd>
+                    <dt>Bachelors Of Science - University Of Georgia</dt>
+                    <dd>Expected May 2020, Major - Psychology </dd>
+                </dl>
+            </div>
+        <h3>Skills & Abilities</h3>
+        <ul>
+            <li>Communication - I can communicate well with people one on one or in large groups. I can also deliver presentations and speeches excellently with or without preparation. </li>
+            <li>Leadership - I co-founded my High School’s FBLA (Future Business Leaders of America) chapter alongside my friends and maintained leadership positions during my years in the club. </li>
+            <li>Practicality - When time is of the essence and things are at stake, I am quick to resolve the situation and implement a functional solution. </li>
+            <li>Secondary Languages - German, Spanish</li>
+            <li>Technological knowledge - Windows/MacOS/Linux familiarity, knowledge of HTML + CSS, Python</li>
+        </ul>
+        <h3>Work Experience</h3>
             <ul>
-                <li>Intel i3-370m @ 2.4 GHz 3M Cache, 2C/4T</li>
-                <li>2GB DDR3 @ 1033 MHz</li>
-                <li>300GB 5600 RPM HDD</li>
-                <li>1366x768 WXGA Display</li>
+                <li>Oct 2018 - Current | Telephone Grassroots Advocate | Nextwave Advocacy LLC</li>
             </ul>
-        <h6>And that was only the start.</h6>
-        <p>From this I knew I had a list of things to remedy:</p>
+        <h3>Volunteering & Extracurriculars</h3>
+            <ul>
+                <li>1<sup>st</sup> Chair Clarinet | CHS Marching And Symphonic Band | 2013 – 2015</li>
+                <li>Co-Founder/Secretary | FBLA - CHS Chapter | 2015 – 2016 </li>
+                <li>Member | CHS Beta Club | 2015 – 2016 </li>
+                <li>Volunteer | Canton Elementary Fallfest | 2016 </li>
+                <li>Treasurer | FBLA - CHS Chapter | 2016 – 2017</li>
+                <li>Member | Spanish Honor Society | 2016 - 2017</li>
+                <li>Volunteer | CHS Technology Fair | April 2017 </li>
+            </ul>
+        <h3>Other Tidbits</h3>
             <ol>
-                <li>Reduce the disk swapping
-                <li>Cut boot times
-                <li>Replace the thermal paste
-                <li><del>Maybe see if a FHD panel is available</del>
+                <li>I love to repair old electronics.</li>
+                <li>I have skydived before<del>, and will do it again.</del></li>
+                <li>I have won the lottery before. Only $100, but better than nothing.</li>
             </ol>
-        <p>The first thing on my renovation list was the RAM. 2GB might have been enough back in 2007, but nowadays cell phones have more.</p>
-        <p>I ordered a 2x4GB Crucial RAM kit off of ebay, took out the battery, removed the speaker grill and keyboard and put the 2 new sticks in. Easy peasy.</p>
-        <img src="ram.png" alt="Low density RAM in the machine" height="300" width="100%">
+            <div style=text-indent:20px;>
+                <p>My favorite genre of music is Eurobeat, of which you can listen to an excellent mix of <a href="https://www.youtube.com/watch?v=NdeIPfHlQuM">here.</a></p>
+                <p>Or in this embed, because it really is an excellent mix!</p>
+            </div>
     </div>
     </body>
 </html>
